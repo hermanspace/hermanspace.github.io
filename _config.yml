@@ -1,11 +1,11 @@
 # Site settings
-title: Hermansyah Portfolio
+title: hermanspace Portfolio
 description: Web Developer building useful systems for real workflows.
 # baseurl: "/particle" # the subpath of your site, e.g. /blog
 # url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
-username: Hermansyah
+username: hermanspace
 user_description: I build web apps and internal systems for real-world workflows. Most of my work sits in backend and fullstack development, system architecture, and building tools that teams actually use every day. I work with PHP and Golang, usually with Laravel, Blade, Vue, and Progressive Web Apps. I also explore Flutter for mobile apps, plus networking and infrastructure basics (MikroTik, cloud, VPS). I enjoy automation, clean architecture, and occasionally debugging things that worked perfectly yesterday.
 user_title: Web Developer • System Architect • Tech Enthusiast
 email: hermansyah_@live.com
