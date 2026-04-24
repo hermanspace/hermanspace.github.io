@@ -6,35 +6,55 @@ description: Personal site, engineer notes, and selected works.
 
 ## Halo, saya Herman
 
-Saya membangun produk digital yang cepat, rapi, dan nyaman dipakai.
-Di sini saya berbagi profil singkat, fokus kerja, dan project pilihan.
+Saya adalah web developer yang fokus membangun produk digital yang cepat, rapi, dan mudah digunakan.
+Saya terbiasa mengerjakan landing page, dashboard, dan UI modern yang responsif.
 
 <div class="hero-actions">
   <a class="btn" href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a>
   <a class="btn btn-ghost" href="./another-page.html">Lihat Halaman Lain</a>
 </div>
 
-### Fokus saya
+### Profil Singkat
 
-- Frontend dan pengalaman pengguna yang clean
-- Web performance dan aksesibilitas
-- Arsitektur produk yang maintainable
+- Berpengalaman dalam pengembangan web modern dengan pendekatan mobile-first
+- Fokus pada performa, aksesibilitas, dan desain antarmuka yang konsisten
+- Nyaman berkolaborasi lintas tim untuk menerjemahkan kebutuhan bisnis menjadi produk digital
 
-### Highlight
+### Keahlian Utama
 
-> "Simple bukan berarti biasa. Simple berarti setiap detail punya alasan."
+- HTML, CSS/SCSS, JavaScript
+- Responsive UI Development
+- UI/UX Implementation
+- Web Performance Optimization
+- Git dan workflow kolaboratif
 
-### Project pilihan
+### Daftar Project
 
-#### 1) Modern Web Interface
-Desain antarmuka modern minimalis dengan fokus ke kecepatan dan kejelasan informasi.
+<div class="project-list">
+  <article class="project-item">
+    <h4>Modern Web Interface</h4>
+    <p>Membangun antarmuka web modern minimalis dengan struktur komponen yang rapi dan fokus pada pengalaman pengguna.</p>
+  </article>
+  <article class="project-item">
+    <h4>Landing Page Optimization</h4>
+    <p>Mengoptimasi landing page untuk meningkatkan kecepatan loading, stabilitas layout, dan keterbacaan di perangkat mobile.</p>
+  </article>
+  <article class="project-item">
+    <h4>Design System Starter</h4>
+    <p>Menyusun fondasi design system sederhana untuk mempercepat pengembangan fitur serta menjaga konsistensi visual.</p>
+  </article>
+  <article class="project-item">
+    <h4>Portfolio Personal Website</h4>
+    <p>Membuat website personal bertema dark modern untuk menampilkan profil profesional dan ringkasan project secara jelas.</p>
+  </article>
+</div>
 
-#### 2) Landing Page Optimization
-Audit performa dan optimasi halaman agar loading cepat di jaringan mobile.
+### Pengalaman Kerja Singkat
 
-#### 3) Design System Starter
-Fondasi komponen reusable untuk mempercepat pengembangan fitur baru.
+- Mengembangkan halaman web responsif untuk kebutuhan branding dan promosi digital
+- Meningkatkan kualitas UI melalui penyederhanaan komponen dan style guide
+- Mendukung proses iterasi produk melalui feedback pengguna dan perbaikan berkelanjutan
 
 ### Kontak
 
-Kalau kamu ingin kolaborasi, diskusi project, atau sekadar ngobrol teknologi, hubungi saya via GitHub.
+Jika Anda tertarik untuk kolaborasi project, silakan hubungi saya melalui GitHub.
