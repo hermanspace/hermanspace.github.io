@@ -7,4 +7,29 @@
   <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
   <link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}">
+  <style>
+    .project-link {
+      background: linear-gradient(135deg, rgba(117, 108, 255, 0.12), rgba(80, 197, 255, 0.14));
+      border-color: #5a6cff;
+      color: #4d5de6;
+      box-shadow: 0 6px 18px rgba(90, 108, 255, 0.18);
+    }
+
+    .project-link:hover,
+    .project-link:active {
+      background: linear-gradient(135deg, #5a6cff, #4f8dff);
+      border-color: #5a6cff;
+      color: #ffffff;
+      box-shadow: 0 8px 20px rgba(90, 108, 255, 0.3);
+    }
+
+    .tech i {
+      background: linear-gradient(135deg, #5a6cff, #47c8ff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      color: transparent;
+      filter: drop-shadow(0 3px 8px rgba(79, 141, 255, 0.25));
+    }
+  </style>
 </head>
