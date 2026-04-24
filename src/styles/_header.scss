@@ -20,6 +20,8 @@
   position: absolute;
   top: 50%;
   left: 50%;
+  width: min(92%, 760px);
+  padding: 0 12px;
   margin: 0 auto;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
@@ -34,15 +36,23 @@
     }
   }
   .site-description {
-    font-size: 20px;
+    font-size: 18px;
     display: block;
-    line-height: 1;
+    line-height: 1.35;
     color: #FFF;
     margin-top: 10px;
     @media only screen and (min-width:$cut){
-      font-size: 40px;
+      font-size: 28px;
     }
   }
+}
+
+.header-tagline {
+  margin: 14px auto 0;
+  max-width: 560px;
+  font-size: 16px;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.92);
 }
 
 .header-links {
