@@ -1,49 +1,18 @@
-<style>
-  .header {
-    width: min(92%, 760px);
-    padding: 0 12px;
-  }
-
-  .header .site-description {
-    font-size: 18px;
-    line-height: 1.35;
-  }
-
-  .header-tagline {
-    margin: 14px auto 0;
-    max-width: 560px;
-    font-size: 16px;
-    line-height: 1.6;
-    color: rgba(255, 255, 255, 0.92);
-  }
-
-  @media only screen and (min-width: 550px) {
-    .header .site-description {
-      font-size: 28px;
-    }
-  }
-</style>
-<header id="particles-js">
+<div id="particles-js">
   <div class="header">
-    <h1>
-      <span class="site-title">Hermansyah</span>
-      <span class="site-description">
-        Web Developer • System Architect • Tech Enthusiast
-      </span>
-    </h1>
-    <p class="header-tagline">
-      I build systems that actually get used — because spreadsheets can only go so far.
-    </p>
-
-    <div class="header-icons">
-      <a aria-label="GitHub" href="https://github.com/your_github_username">
-        <i class="icon fa fa-github"></i>
-      </a>
-    </div>
-
-    <div class="header-links">
-      <a class="link" href="#about" data-scroll>About Me</a>
-      <a class="link" href="#projects" data-scroll>Project Highlights</a>
-    </div>
+      <h1>
+        <span class="site-title">{{site.username}}</span>
+        <span class="site-description">{{site.user_title}}</span>
+      </h1>
+      <p class="header-tagline">I build systems that actually get used, because spreadsheets can only go so far.</p>
+      <div class="header-icons">
+        <a aria-label="Send email" href="mailto:{{site.email}}"><i class="icon fa fa-envelope"></i></a>
+        <a aria-label="My Github" target="_blank" href="https://github.com/{{site.github_username}}"><i class="icon fa fa-github-alt" aria-hidden="true"></i></a>
+      </div>
+      <div class="header-links">
+        <a class="link" href="#about" data-scroll>About Me</a>
+        <a class="link" href="#projects" data-scroll>Project Highlights</a>
+      </div>
   </div>
-</header>
+  <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
+</div>
